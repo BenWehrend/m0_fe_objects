@@ -109,3 +109,30 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+var emails = ["who1", "who2", "when", "what1", "what2"];
+
+emails = [
+  {
+    sender : "Jim",
+    recipient : "Micahel",
+    timeSent : "11 am",
+    subject : "Today",
+    contents : "Meeting",
+  },
+  {
+    sender : "Kevin",
+    recipient : "Angela",
+    timeSent : "12 pm",
+    subject : "Tomorrow",
+    contents : "Overtime",
+  },
+  {
+    sender : "Creed",
+    recipient : "Meredith",
+    timeSent : "1 pm",
+    subject : "Next week",
+    contents : "Day off",
+  }
+];
+console.log(emails);
+console.log(emails[2]);
