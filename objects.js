@@ -43,16 +43,23 @@ foods.potatoes = 200;
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
-
+var email = {
+  sender : "Toby",
+  recipient : "Pam",
+  timeSent : "June 15, 2023 at 10 a.m.",
+  subject : "Tomorrow's meeting.",
+  contents : "Let's have a meeting tomorrow."
+};
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
+console.log(Object.keys(email));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
-
+consoloe.log(Object.values(email));
 
 // -------------------
 // Part 3: Many Emails - CHALLENGE!
